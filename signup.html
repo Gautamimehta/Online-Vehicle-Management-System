@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ONLINE VEHICLE MANAGEMENT SYSTEM</title>
+        
+    </head>
+      <style>
+        
+        /* Bordered form */
+body{
+        text-align: center; 
+        font-family: "Open Sans";font-size: 15px;
+        }
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+ text-align: center;
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  text-align: center;
+  background-color: orange;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 25px 25px;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 20;
+  border-radius: 20%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: center;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: inline;
+    float: none;
+  }
+  
+}</style>
+    <body>
+<h1 align="center">ONLINE VEHICLE MANAGEMENT SYSTEM</h1>
+        <header>
+            <div class="main">
+            <form action="action_page.php" method="post">
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required><br><br>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required><br><br>
+	<label for="adm"><b>
+
+    <button type="submit">Login</button><br><br>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me<br><br>
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+      <span class="psw">Don't have an account? <a href="signup2.html">Sign Up <br><br></a><a href="forgot.html"> Forgot Password</a></span>
+  </div>
+</form>   
+            </div>
+        </header>
+     </body>
+</html>
+
